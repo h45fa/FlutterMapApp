@@ -79,6 +79,14 @@ class _AdvancedMapScreenState extends State<AdvancedMapScreen> {
             initialCameraPosition: initialCameraPosition,
             markers: markers,
             onLongPress: _onMapLongPress,
+            zoomControlsEnabled: true, // Disable default zoom controls
+            compassEnabled: true, // Disable compass
+            myLocationEnabled: true, // Enable my location button
+            myLocationButtonEnabled: false, // Hide default my location button
+            padding: const EdgeInsets.only(
+              bottom: 70,
+              right: 15,
+            ), // Adjust padding to move zoom buttons up
           ),
           Align(
             alignment: Alignment.bottomCenter,
