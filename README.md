@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+Make sure you have obtained a valid Google Maps API key and configured it in your AndroidManifest.xml (for Android) and AppDelegate.swift (for iOS) files.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
