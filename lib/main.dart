@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:compass_maps_app/map_screen.dart';
+import 'package:compass_maps_app/advanced_map_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Google Maps Example',
+      title: 'Advanced Maps Example',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MapScreen(),
+      home: const AdvancedMapScreen(),
     );
   }
 }
